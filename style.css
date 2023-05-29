@@ -1,0 +1,272 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+    @media (min-width: 860px) {
+      .navbar .collapse {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 860px) {
+      .navbar .navbar-nav {
+        display: none;
+      }
+
+      .navbar .collapse {
+        display: block;
+      }
+      #itemimage {
+        height: 324px;
+        width: 400px;
+      }
+      .divnum1{
+        flex-direction: column-reverse;
+        margin-top: 2px;
+      }
+      .rowclassi{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .services{
+        padding: 0;
+        margin: 0;
+      }
+      .servicesh2{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        color: #191825;
+      }
+      .servicesh1{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #F85E9F;
+      }
+    }
+.image{
+    width: 575px;
+    height: 632px;
+}
+.description1{
+    width: 432px;
+height: 577px;
+}
+.divnum1{
+    margin-top: 250px;
+    gap: 250px;
+    flex-wrap: wrap;
+}
+.explore{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.exploreh1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #F85E9F;
+margin-top: 10px;
+}
+.redwords{
+    color: #F85E9F;
+}
+.bigwords{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 69px;
+line-height: 120%;
+color: #000000;
+}
+.smallwords{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(25, 24, 37, 0.5);
+}
+.buttons{
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 49px;
+    background: #5D50C6;
+    box-shadow: 0px 81px 32px rgba(0, 0, 0, 0.01), 0px 45px 27px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons1{
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 49px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    justify-content: center;
+}
+.watchdemo{
+    margin-top: 10px;
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #222831;
+}
+.getstarted{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #EEEEEE;
+margin-top: 10px;
+}
+.travlog{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #191825;
+}
+.div1{
+    gap: 16px;
+    height: 40px;
+}
+.img1{
+    width: 40px;
+height: 40px;
+}
+.row{
+    justify-content: space-between;
+}
+.navigation{
+    gap: 64px;
+}
+.home{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #222831;
+border: none;
+background-color: transparent;
+}
+.Discover{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: rgba(25, 24, 37, 0.5);
+border: none;
+background-color: transparent;
+}
+.login1{
+    background-color: transparent;
+    border: none;
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #222831;
+width: 105px;
+height: 49px;
+background: transparent;
+border-radius: 100px;
+}
+.signup{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #EEEEEE;
+gap: 8px;
+width: 115px;
+height: 49px;
+background: #5D50C6;
+border-radius: 100px;
+border: none;
+}
+.services{
+    margin-top: 10%;
+}
+.card2h1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 120%;
+text-align: center;
+color: #191825;
+margin-top: 64px;
+}
+.card2h2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+text-align: center;
+color: rgba(25, 24, 37, 0.5);
+margin-top: 32px;
+}
+.servicesh1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #F85E9F;
+}
+.servicesh2{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 120%;
+color: #191825;
+
+}
+.card2{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 64px;
+height: 443px;
+background: #FFFFFF;
+border: 1px solid rgba(25, 24, 37, 0.1);
+border-radius: 32px;
+}
