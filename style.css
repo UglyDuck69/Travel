@@ -3,11 +3,12 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: #F5F5F5;
-    margin: 0;
-    padding: 0;
+
 }
     @media (min-width: 860px) {
       .navbar .collapse {
@@ -16,6 +17,12 @@ body{
     }
 
     @media only screen and (max-width: 860px) {
+        .gilakebi{
+            margin-top: 90px;
+            justify-content: space-between;
+          }
+
+
       .navbar .navbar-nav {
         display: none;
       }
@@ -35,6 +42,7 @@ body{
         padding: 20px;
         display: flex;
         justify-content: center;
+        row-gap: 16px;
       }
       .services{
         padding: 0;
@@ -59,6 +67,44 @@ body{
         letter-spacing: 0.2em;
         text-transform: uppercase;
         color: #F85E9F;
+      }
+      
+      .destination3{
+        text-align: center;
+        width: fit-content;
+      }
+      .destination2{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        text-align: center;
+        color: #191825;
+      }
+      .destination{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #F85E9F;
+      }
+      .qardebi1{
+        width: 398px;
+        height: 561px;
+        background: #FFFFFF;
+        box-shadow: 0px 513px 205px rgba(0, 0, 0, 0.01), 0px 288px 173px rgba(0, 0, 0, 0.03), 0px 128px 128px rgba(0, 0, 0, 0.04), 0px 32px 71px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+        border-radius: 0px 0px 32px 32px;
+      }
+      .carddescriptiondiv{
+        gap: 10px;
+      }
+      .city{
+        margin-top: 10px;
       }
     }
 .image{
@@ -269,4 +315,136 @@ height: 443px;
 background: #FFFFFF;
 border: 1px solid rgba(25, 24, 37, 0.1);
 border-radius: 32px;
+}
+.destination{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #F85E9F;
+margin-top: 130px;
+}
+.destination2{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 120%;
+color: #191825;
+}
+.circle{
+    width: 100px;
+height: 100px;
+left: 0px;
+top: 0px;
+background: transparent;
+border: 1px solid rgba(25, 24, 37, 0.1);
+border-radius: 100px;
+margin-top: 130px;
+}
+.circle1{
+    width: 100px;
+height: 100px;
+left: 0px;
+top: 0px;
+background: #5D50C6;
+border-radius: 100px;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+margin-top: 130px;
+margin-left: 32px;
+}
+.qardebi1{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+width: 373.33px;
+height: 605px;
+border-radius: 32px 32px 0px 0px;
+border: none;
+box-shadow: 0px 513px 205px rgba(0, 0, 0, 0.01), 0px 288px 173px rgba(0, 0, 0, 0.03), 0px 128px 128px rgba(0, 0, 0, 0.04), 0px 32px 71px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+}
+.qardebiskont{
+    margin-top: 180px;
+}
+.qardebi{
+    row-gap: 32px;
+    gap: 32px;
+}
+.beachtxt{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+color: #191825;
+}
+
+.price{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    color: #F85E9F;
+}
+.city{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(25, 24, 37, 0.75);
+margin-top: auto;
+}
+.ratingtxt{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+color: #FF5722;
+}
+.rating{
+    gap: 7px;
+    margin-top: auto;
+}
+.chapter2div1h1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #F85E9F;
+}
+.chapter2div1h2{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 120%;
+color: #191825;
+}
+.chapter2div1h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(25, 24, 37, 0.5);
+}
+.chapter2div2h1{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #F85E9F;
 }
