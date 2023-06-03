@@ -17,6 +17,18 @@ body{
       .reversecolumn{
         padding-left: 128px;
     }
+    .qwead{
+        padding-left: 128px;
+        padding-right: 128px;
+    }
+    .loremipsum{
+        font-family: 'Circular Std';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 23px;
+        line-height: 160%;
+        color: rgba(25, 24, 37, 0.5);
+    }
     .Testimonials{
         font-family: 'Circular Std';
         font-style: normal;
@@ -39,9 +51,31 @@ body{
         color: #191825;
         margin-top: 16px;
     }
+    .prepare{
+        font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 120%;
+/* or 66px */
 
+text-align: center;
 
+/* Grey Scale/Black */
 
+color: #191825;
+    }
+    .card31{
+        height: 164px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+    }
+    
 
 
     }
@@ -53,17 +87,68 @@ body{
             margin-top: 90px;
             justify-content: space-between;
           }
-
+          .loremipsum{
+            font-family: 'Circular Std';
+font-style: normal;
+font-weight: 450;
+font-size: 16px;
+line-height: 160%;
+color: rgba(25, 24, 37, 0.5);
+          }
           .adadasd{
             display: none;
           }
       .navbar .navbar-nav {
         display: none;
       }
+      .prepare{
+        font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
 
+text-align: center;
+
+/* Grey Scale/Black */
+
+color: #191825;
+
+      }
       .navbar .collapse {
         display: block;
       }
+      .card31{
+        margin-left: 10px;
+        height: 284px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    padding:32px;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+    }
+    .littleimages{
+        height: 100px;
+        width: 100px;
+    }
+    .etraa{
+        margin-top: 70px;
+    }
+    .adsssa{
+        flex-direction: column;
+        margin-left: 15px;
+    }
+      .card3{
+        height: 284px;
+    background: #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    padding:32px;
+    border: 1px solid rgba(25, 24, 37, 0.1);
+    }
       #itemimage {
         height: 324px;
         width: 400px;
@@ -91,6 +176,9 @@ body{
         text-align: center;
         color: #191825;
       }
+      .card2{
+        margin-left: 15px;
+      }
       .servicesh1{
         font-family: 'Circular Std';
         font-style: normal;
@@ -116,6 +204,15 @@ body{
         text-align: center;
         color: #191825;
       }
+      .footeria2{
+        gap: 64px;
+      }
+      .kkjg{
+        margin-left: 25px;
+      }
+      .qardebi1{
+        margin-left:  25px;
+      }
       .destination{
         font-family: 'Circular Std';
         font-style: normal;
@@ -126,6 +223,9 @@ body{
         letter-spacing: 0.2em;
         text-transform: uppercase;
         color: #F85E9F;
+      }
+      .randomimage{
+        width: 364px;
       }
       .qardebi1{
         width: 398px;
@@ -157,15 +257,37 @@ body{
     width: 575px;
     height: 632px;
 }
-
+.footeria{
+    margin-top: 200px;
+  }
 .description1{
     width: 432px;
 height: 577px;
+}
+.arrow{
+width: 21.5px;
+height: 21.5px;
 }
 .divnum1{
     margin-top: 250px;
     gap: 250px;
     flex-wrap: wrap;
+}
+.company{
+    font-family: 'Circular Std';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 120%;
+color: #191825;
+}
+.About{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+color: rgba(25, 24, 37, 0.75);
 }
 .explore{
     display: flex;
@@ -485,6 +607,7 @@ font-size: 18px;
 line-height: 160%;
 color: rgba(25, 24, 37, 0.5);
 }
+
 .chapter2div2h1{
     font-family: 'Circular Std';
 font-style: normal;
@@ -505,16 +628,7 @@ flex-direction: row;
 align-items: center;
 padding: 32px;
 }
-.card31{
-    height: 164px;
-background: #FFFFFF;
-border-radius: 32px;
-display: flex;
-flex-direction: row;
-align-items: center;
-padding: 32px;
-border: 1px solid rgba(25, 24, 37, 0.1);
-}
+
 .asdaa{
     gap: 64px;
 }
