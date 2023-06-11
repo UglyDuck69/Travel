@@ -29,10 +29,18 @@
                 </h1>
             </div>
             <div class="navigation d-none d-md-flex col-md-6">
-                <button class="home">Home</button>
-                <button class="Discover">Discover</button>
-                <button class="Discover">Special Deals</button>
-                <button class="Discover">Contact</button>
+                <button class="home">
+                    Home
+                </button>
+                <button class="discover">
+                    Discover
+                </button>
+                <button class="discover">
+                    Special Deals
+                </button>
+                <button class="discover">
+                    Contact
+                </button>
             </div>
 
 
@@ -48,18 +56,21 @@
                 </button>
             </div>
 
-            <nav class="col-3 navbar navbar-expand-md">
-                <button class="navbar-toggler" style="background-color: #5D50C6; height: 48px; border-radius: 15px;" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-                  aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                  </ul>
-                </div>
+            <nav class="col-3 navbar d-md-none navbar-expand-md d-flex justify-content-center" style="background-color: #5D50C6; height: 58px; border-radius: 15px;">
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon" onclick="toggleMenu()">&#9776;</label>
+                <ul class="menu" id="menu" style="background-color: #5D50C6;border-radius: 15px;padding: 15px;transition: 0.3s;margin-top: 21px;">
+                    <li><h1 class="home1" href="#">Home</h1></li>
+                    <li><h1 class="discover1" href="#">About</h1></li>
+                    <li><h1 class="discover1" href="#">Services</h1></li>
+                    <li><h1 class="discover1" href="#">Contact</h1></li>
+                </ul>
+                
               </nav>
         </div>
     </div>
+    
+
 
     <div class="container">
         <div class="row justify-content-center divnum1">
@@ -705,5 +716,19 @@
         </div>
 </div>
 
+
+
+
+
+
+
+
+<script>
+    function toggleMenu() {
+  var menu = document.getElementById("menu");
+  menu.classList.toggle("show-menu");
+}
+
+</script>
 </body>
 </html>
