@@ -136,6 +136,26 @@ color: #191825;
         height: 100px;
         width: 100px;
     }
+    .Testimonials{
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 120%;
+      text-align: center;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #F85E9F;
+    }
+    .trust{
+      font-family: 'Circular Std';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 120%;
+      text-align: center;
+      color: #191825;
+    }
     .etraa{
         margin-top: 70px;
     }
